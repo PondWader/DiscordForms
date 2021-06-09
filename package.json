@@ -1,0 +1,27 @@
+{
+  "name": "discordforms",
+  "version": "0.0.1",
+  "description": "A library for creating forms for a discord.js bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PondWader/DiscordForms.git"
+  },
+  "keywords": [
+    "discord.js",
+    "forms",
+    "DiscordForms"
+  ],
+  "author": "PondWader",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PondWader/DiscordForms/issues"
+  },
+  "homepage": "https://github.com/PondWader/DiscordForms#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
