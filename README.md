@@ -71,11 +71,11 @@ bot.login('token');
 
 The first thing you need to do to create a new form is import DiscordForms, you can do this as shown below (make sure you have DiscordForms installed):
 ```
-const DiscordForm = require('DiscordForms');
+const DiscordForm = require('discordforms');
 ```
 Then you can add this to your code to create a new form:
 ```
-const DiscordForm = require('DiscordForms');
+const DiscordForm = require('discordforms');
 const form = new DiscordForm(new DiscordForm({
     timeout: 60000, // The time out time in miliseconds, 60000 = 60 seconds (this is how long the users will have to answer each question),
     failTries: 2, // How many tries the user gets to fail before the form is cancelled (0 means if the first answer is rejected the form is cancelled),
